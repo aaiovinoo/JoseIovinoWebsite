@@ -713,6 +713,25 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
+@media only screen and (max-width: 330px) {
+  #about p{
+   width:50%;
+   text-align:left;
+   margin-left:2.5em;
+   font-size:9.5pt;
+   height:300px;
+   vertical-align:middle;
+    }
+    
+#about-info{
+    width:80vw;
+    height: 90vh;
+    padding-left:-1em;
+    padding-right:1.5em;
+    margin-left: 2em;
+    }
+}
+
 #profile {
     width:37vw;
     max-width:360px;
